@@ -4,6 +4,8 @@
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
+<img width="1432" height="761" alt="Screenshot 2026-04-14 at 4 29 50 PM" src="https://github.com/user-attachments/assets/b8b32480-b3b1-47c3-96cd-d5cf2f1df48c" />
+
 ---
 
 ## Overview
@@ -26,6 +28,8 @@ The app ships with 4 pre-loaded examples — no API required:
 | Ukraine Peace Negotiations 2025 | 88% | 8 | 4 |
 | GPT-5 Launch & AI Race 2025 | 95% | 8 | 4 |
 | COP30 Climate Summit — Belém 2025 | 90% | 8 | 4 |
+
+<img width="1422" height="769" alt="Screenshot 2026-04-14 at 4 30 09 PM" src="https://github.com/user-attachments/assets/8e3d3fa3-e86a-4700-bd27-ebb992613846" />
 
 ---
 
