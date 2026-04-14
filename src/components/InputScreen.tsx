@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Search, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { DEMO_RESULTS } from "@/data/demo-data";
 
 interface InputScreenProps {
   onGenerate: (topic: string) => void;
@@ -52,13 +53,19 @@ const InputScreen = ({ onGenerate }: InputScreenProps) => {
         </Button>
       </form>
 
-      <button
-        type="button"
-        onClick={() => onGenerate("Gaza Ceasefire 2025")}
-        className="mt-6 text-sm font-medium text-primary underline-offset-4 hover:underline"
-      >
-        Try demo: Gaza Ceasefire 2025
-      </button>
+      <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+        <span className="text-sm text-muted-foreground">Try a demo:</span>
+        {DEMO_RESULTS.map((d) => (
+          <button
+            key={d.topic}
+            type="button"
+            onClick={() => onGenerate(d.topic)}
+            className="rounded-full border border-border bg-secondary px-4 py-1.5 text-sm font-medium text-foreground transition-colors hover:border-primary hover:text-primary"
+          >
+            {d.topic}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };
